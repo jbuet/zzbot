@@ -18,7 +18,8 @@ ZZBot is essentially a repository created to simplify the deployment of [JMusicB
     ```
 
 3. Follow instructions to create a bot app on discord [Configure the bot](https://jmusicbot.com/setup/#3-configure-the-bot). You need to obtain a user id and a token.
-4. Create an environment variables file with the name **.env** and the following values. Replace the values of **TOKEN** and **USER_ID**.
+4. [Add your bot to your server](https://jmusicbot.com/adding-your-bot/)
+5. Create an environment variables file with the name **.env** and the following values. Replace the values of **TOKEN** and **USER_ID**.
 
     ```bash
     TOKEN=CHANGEME
@@ -26,7 +27,7 @@ ZZBot is essentially a repository created to simplify the deployment of [JMusicB
     CUSTOM_PREFIX=!
     ```
 
-5. Run the following command:
+6. Run the following command:
 
     ```bash
     cd zzbot/
