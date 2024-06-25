@@ -1,0 +1,6 @@
+services:
+  discord-music-bot:
+    container_name: Discord-Music-Bot
+    restart: unless-stopped
+    build: .
+    env_file: ".env"
