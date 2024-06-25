@@ -1,10 +1,8 @@
-FROM ubuntu
-
-ARG VERSION=0.4.1
+FROM ubuntu:24.04
 
 RUN apt-get update && apt-get install openjdk-11-jre -yf && mkdir -p /src/app
 
-ADD https://github.com/jagrosh/MusicBot/releases/download/$VERSION/JMusicBot-$VERSION.jar  /src/app/JMusicBot.jar
+ADD https://github.com/jagrosh/MusicBot/releases/download/0.4.1/JMusicBot-0.4.1.jar  /src/app/JMusicBot.jar
 
 WORKDIR /src/app
 
